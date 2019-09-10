@@ -24,9 +24,8 @@
             }
         },
         methods:{
-            doSome(){
+            resetForm(){
                 document.forms.ui_form.reset();
-                alert(this.name);
             },
             input(data){
                 this.name = data.value
